@@ -350,22 +350,40 @@ hr{
   font-family: 'Roboto';
   font-size: 18px; 
   margin: 0px 0px 15px 0px;
+  line-height: 20px;
 }
 
+#lb-link{
+  height: 30px;
+  width: 150px;
+  padding: 7px 0px 0px 10px;
+  border-radius: 5px;
+  background-color: green;
+  /*box-shadow: 20px 20px 0px 0px white;*/
+}
+
+#lb-link:hover{
+  border: solid green 2px;
+  background-color: transparent;
+  
+}
+
+#lb-link:hover a{
+  /*border-radius: 5px;
+  background-color: green;*/
+  color: green;
+  font-weight: bold;
+}
+
+
 #lb-link a{
- color: green;
+ color: white;
  font-family: 'Open Sans';
  font-size: 18px;
  text-decoration: none;
- transition: .3s;
- 
+ transition: .3s; 
 }
 
-#lb-link a:hover {
-  border-radius: 5px;
-  background-color: green;
-  color: white;
-}
 
 .work-wrapper{
   width: 100%;
