@@ -58,11 +58,11 @@ $scope.projectData =  [
 		skills: 'AngularJS, HTML5, CSS3'
 	},
 	{
-		title: 'Grand Circus Theatre',
+		title: 'Woodward Avenue Cinema',
 		src: 'https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=40eba4c15ec393c84db9c76380d26869',
 		caption: 'An app for reserving movie theatre seats',
 		subdomain: 'http://www.midterm-project.colinwalbridge.com',
-		description: 'Reserve your seat at the luxurious Grand Circus Theatre with this jQuery app. Users select the seat(s) they want to reserve, then enter their name into a confirmation form. Once a seat is reserved, it cannot be selected by another patron.',
+		description: 'Reserve your seat at the luxurious Woodward Avenue Cinema with this jQuery app. Users select the seat(s) they want to reserve, then enter their name into a confirmation form. Once a seat is reserved, it cannot be selected by another patron.',
 		skills: 'jQuery, HTML5, CSS3'
 	},
 	{
