@@ -46,7 +46,7 @@ $scope.projectData =  [
 		src: 'https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=40eba4c15ec393c84db9c76380d26869',
 		caption: 'An app that spews six-year-old words and phrases',
 		subdomain: 'http://www.six-year-old-sim-lab.colinwalbridge.com',
-		description: 'An AngularJS app that talks… a lot. Users press different buttons on the app to display a random word or phrase that a six-year-old might say.',
+		description: 'An AngularJS app that talks- a lot. Users press different buttons on the app to display a random word or phrase that a six-year-old might say.',
 		skills: 'AngularJS, HTML5, CSS3'
 	},
 	{
