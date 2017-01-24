@@ -26,7 +26,7 @@ $scope.projectData =  [
 		skills: 'AngularJS, HTML5, CSS3'
 	},
 	{
-		title: 'Shopping List',
+		title: 'Shopping Cart',
 		src: 'https://images.unsplash.com/photo-1473800447596-01729482b8eb?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&cs=tinysrgb&s=40eba4c15ec393c84db9c76380d26869',
 		caption: 'Add items to your cart and calculate your total cost',
 		subdomain: 'http://www.shopping-list-lab.colinwalbridge.com',
