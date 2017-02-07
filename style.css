@@ -440,7 +440,7 @@ hr{
   flex-direction: column;
   text-transform: capitalize;
   letter-spacing: .1em;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .6);
   color: white;
   font-family: 'Roboto'; 
 }
@@ -461,7 +461,7 @@ hr{
   justify-content: center;;
   flex-direction: column;
   padding-right:8px;
-  background-color: rgba(0, 0, 0, .3);
+  background-color: rgba(0, 0, 0, .6);
   color: white;
   font-family: 'Roboto';
   opacity:0;
