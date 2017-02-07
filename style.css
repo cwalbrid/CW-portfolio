@@ -358,24 +358,25 @@ hr{
   width: 150px;
   padding: 7px 0px 0px 10px;
   border-radius: 5px;
-  background-color: green;
+  background-color: #74aae2;
   /*box-shadow: 20px 20px 0px 0px white;*/
 }
 
 #lb-link:hover{
   cursor: pointer;
-  background-color: #004d00;
+  background-color: #3e5974;
 }
 
+
 #lb-link:active{
-  border: solid #004d00 2px;
+  border: solid #3e5974 2px;
   background-color: transparent;
 }
 
 #lb-link-a:active {
   /*border-radius: 5px;
   background-color: green;*/
-  color: green;
+  color: #3e5974;
   font-weight: bold;
 }
 
