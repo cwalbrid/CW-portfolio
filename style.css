@@ -173,7 +173,7 @@ hr{
 
 .home-copy{
   font-family: 'Open Sans', Sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   line-height: 1.3em;
   margin: 5% auto 5%;
   color: #666666;
@@ -232,7 +232,7 @@ hr{
 
 .about-copy{
   font-family: 'Roboto', Sans-serif;
-  font-size: 21px;
+  font-size: 23px;
   line-height: 1.3em;
   margin: 0 auto 5%;
   color: #666666;
@@ -244,6 +244,7 @@ hr{
 .about-copy a{
   text-decoration: none;
   transition: .2s;
+  color: blue;
 }
 
 .about-copy a:hover{

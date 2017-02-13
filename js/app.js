@@ -25,7 +25,7 @@ $scope.projectData =  [
 		scapeSrc: '../img/scape-to-do.jpg',
 		caption: 'A to-do list to manage tasks',
 		subdomain: 'http://www.to-do-list-lab.colinwalbridge.com',
-		description: 'An AngularJS app that displays a list of tasks to accomplish. Users can add new tasks, remove tasks once they’ve been completed, and filter for tasks by keyword(s).',
+		description: 'An AngularJS app that displays a list of tasks to accomplish. Users can add new tasks, remove completed tasks, and filter for tasks by keyword(s).',
 		skills: 'AngularJS, HTML5, CSS3'
 	},
 	{
@@ -34,7 +34,7 @@ $scope.projectData =  [
 		scapeSrc: '../img/scape-shopping-cart.jpg',
 		caption: 'Add items to your cart and calculate your total cost',
 		subdomain: 'http://www.shopping-list-lab.colinwalbridge.com',
-		description: 'A JavaScript app that displays a shopping list. The list includes cost for individual items, and the total cost of the list. When users add new items and costs to the list, the app adjusts the total price accordingly',
+		description: 'A JavaScript app that displays a shopping list. The list includes cost for individual items, and the total cost of the list. When users add new items and costs to the list, the app adjusts the total price accordingly.',
 		skills: 'JavaScript, HTML5, CSS3'
 	},
 	{
@@ -43,7 +43,7 @@ $scope.projectData =  [
 		scapeSrc: '../img/scape-reddit.jpg',
 		caption: 'Displays the top ten posts on the subreddit r/AnimalsBeingBros',
 		subdomain: 'http://poor-mans-reddit-lab.colinwalbridge.com',
-		description: 'A JavaScript app that uses a JSON request to reddit.com to display the top ten posts from the subreddit r/AnimalsBeingBros',
+		description: 'A JavaScript app that uses a JSON request to reddit.com to display the top ten posts from the subreddit r/AnimalsBeingBros.',
 		skills: 'JSON, jQuery, HTML5, CSS3'
 	},
 	{
