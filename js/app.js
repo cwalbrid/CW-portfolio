@@ -7,7 +7,7 @@ lightbox.option({
 	'showImageNumberLabel': false,
 	'wrapAround': true,
 	'positionFromTop': 35
-})
+});
 
 $scope.projectData =  [
 	{
@@ -81,6 +81,15 @@ $scope.projectData =  [
 		subdomain: 'https://soundscapeapp.github.io/public/#',
 		description: 'An AngularJS app that allows users to create Soundscapes by attaching tracks from Spotify to a Google Maps location, which can be viewed by other users.',
 		skills: 'AngularJS, API, JSON, HTML5, CSS3'
+	},
+	{
+		title: 'Brick Oven Pizza Co.',
+		thumbSrc: '../img/thumb-brick-oven-pizza.jpg',
+		scapeSrc: '../img/scape-brick-oven-pizza.jpg',
+		caption: 'An AngularJS site built for the fictional Brick Oven Pizza Company',
+		subdomain: 'https://www.brick-oven-pizza-project.colinwalbridge.com',
+		description: 'View the specialty pizzas for each franchise of the fictional Brick Oven Pizza Company while learning the history of its founder, Giuseppe Giacosa.',
+		skills: 'AngularJS, HTML5, CSS3'
 	}
 ];
 
