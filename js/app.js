@@ -87,7 +87,7 @@ $scope.projectData =  [
 		thumbSrc: '../img/thumb-brick-oven-pizza.jpg',
 		scapeSrc: '../img/scape-brick-oven-pizza.jpg',
 		caption: 'An AngularJS site built for the fictional Brick Oven Pizza Company',
-		subdomain: 'https://www.brick-oven-pizza-project.colinwalbridge.com',
+		subdomain: 'http://brick-oven-pizza-project.colinwalbridge.com',
 		description: 'View the specialty pizzas for each franchise of the fictional Brick Oven Pizza Company while learning the history of its founder, Giuseppe Giacosa.',
 		skills: 'AngularJS, HTML5, CSS3'
 	}
