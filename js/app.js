@@ -11,15 +11,6 @@ lightbox.option({
 
 $scope.projectData =  [
 	{
-		title: 'Number Guess',
-		thumbSrc: '../img/thumb-guess.jpg',
-		scapeSrc: '../img/scape-guess.jpg',
-		caption: 'An app that prompts you to correctly guess a number between 1 and 10',
-		subdomain: 'http://www.number-guess-lab.colinwalbridge.com',
-		description: 'A simple JavaScript app that generates a random integer from 1-10, then prompts users to guess the integer. If a user guesses high, the app prompts them to go lower; if they guess low, it prompts to go higher. The user receives a congratulatory alert when they enter the correct answer.',
-		skills: 'JavaScript'
-	},
-	{
 		title: 'To-Do List',
 		thumbSrc: '../img/thumb-to-do.jpg',
 		scapeSrc: '../img/scape-to-do.jpg',

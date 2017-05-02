@@ -57,26 +57,60 @@ hr{
 }
 
 
-#landing-home{
-    /* The image used */
+/*#landing-home{
+    
     background: linear-gradient(to top right,
       rgba(184, 184, 184, 0), 
       rgba(169, 182, 184, .6)
       ),
       url("img/cairns.jpg");
 
-    /* Set a specific height */
-    min-height: 800px; 
     
+    min-height: 800px; 
+    width: 100%;
 
-    /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     position: relative;
+}*/
+
+#landing-home{
+  background-image: url("img/cairns.jpg");
+  position: relative;
+  min-height: 100%;
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 2;
+
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
 }
+
+/*.custom-filter{
+  background: rgba(0, 0, 0, .1);
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  z-index: 25;
+
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  -webkit-background-size: cover;
+  background-size: cover;
+}*/
 
 #landing-about{
     /* The image used */
@@ -183,7 +217,13 @@ hr{
 .home-wrapper {
   width: 90%;
   text-align: center;
-  margin: 0 auto 5%;
+  margin: 0 auto 5%; 
+  position: relative;
+}
+
+#home-grid{
+  
+
 }
 
 .home-thumb {
