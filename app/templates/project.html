@@ -1,0 +1,30 @@
+<!-- <a href="{{project.subdomain}}" target="_blank">
+<div class="grid-item">
+	
+		<p class="grid-heading">{{project.title}}</p>
+		<img src={{project.src}}>
+		<p class="grid-description">{{project.caption}}</p>
+		
+</div>
+</a> -->
+
+<a href="{{project.scapeSrc}}" data-lightbox="project-modal" data-title="
+	<div id='lb-title'>{{project.title}}
+	<a id='lb-link-a' href='{{project.subdomain}}' target='_blank'><span id='lb-link'>VIEW PROJECT</span></a>
+	</div> 
+
+	
+
+	<div id='lb-description'>{{project.description}}</div> 
+
+	<div id='lb-skills'>Skills Used: {{project.skills}}</div>
+	">
+
+<div class="grid-item">
+	
+		<p class="grid-heading">{{project.title}}</p>
+		<img src={{project.thumbSrc}}>
+		<p class="grid-caption">{{project.caption}}</p>
+		
+</div>
+</a>
