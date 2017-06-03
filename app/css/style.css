@@ -11,6 +11,19 @@ body{
   background-color: #798586;
 }
 
+/*================== Header ==================*/
+
+.site-header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    z-index: 4;
+    overflow: hidden;
+    color: #fff;
+    padding: 30px;
+}
 
 .nav {
   list-style-type: none;
@@ -56,29 +69,35 @@ hr{
   /*text-shadow: .4px .4px .4px #2e3738;*/
 }
 
+.cover{
+  width: 100%;
+  z-index: 5;
+  background-color: red;
+  background-size: cover;
+}
 
-/*#landing-home{
+#landing-home{
     
     background: linear-gradient(to top right,
       rgba(184, 184, 184, 0), 
       rgba(169, 182, 184, .6)
       ),
-      url("img/cairns.jpg");
+      url("../img/cairns.jpg");
 
     
     min-height: 800px; 
     width: 100%;
 
     background-attachment: fixed;
-    background-position: center;
+    background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     position: relative;
-}*/
+}
 
-#landing-home{
-  background-image: url("img/cairns.jpg");
+/*#landing-home{
+  background-image: url("../img/cairns.jpg");
   position: relative;
   min-height: 100%;
   width: 100%;
@@ -93,7 +112,7 @@ hr{
   -o-background-size: cover;
   -webkit-background-size: cover;
   background-size: cover;
-}
+}*/
 
 /*.custom-filter{
   background: rgba(0, 0, 0, .1);
@@ -118,7 +137,7 @@ hr{
       rgba(115, 115, 115, .2), 
       rgba(115, 115, 115, .4)
       ),
-      url("img/moher.jpg");
+      url("../img/moher.jpg");
 
     /* Set a specific height */
     min-height: 800px; ; 
@@ -139,7 +158,7 @@ hr{
       rgba(115, 115, 115, .4), 
       rgba(115, 115, 115, .2)
       ),
-      url("img/wave-book.jpg");
+      url("../img/wave-book.jpg");
 
     /* Set a specific height */
     min-height: 800px; 
@@ -160,7 +179,7 @@ hr{
       rgba(115, 115, 115, .3), 
       rgba(115, 115, 115, .3)
       ),
-      url("img/umber-mountains.jpg");
+      url("../img/umber-mountains.jpg");
 
     /* Set a specific height */
     min-height: 800px;  
@@ -376,7 +395,7 @@ hr{
 
   font-family: 'Roboto';
   font-size: 26px;
-  margin: 14px 0px 20px 0px;
+  margin: 21px 0px 30px 0px;
 }
 
 #lb-description{
@@ -397,9 +416,13 @@ hr{
 #lb-link{
   height: 30px;
   width: 150px;
-  padding: 7px 0px 0px 10px;
+  padding: 8px 0px 0px 18px;
+  border: 1.2px solid white;
   border-radius: 5px;
   background-color: #74aae2;
+  float: right;
+  margin-top: -9px;
+  transition: .2s;
   /*box-shadow: 20px 20px 0px 0px white;*/
 }
 
@@ -424,10 +447,12 @@ hr{
 
 #lb-link-a{
  color: white;
- font-family: 'Open Sans';
- font-size: 18px;
+ font-family: 'Roboto';
+ font-size: 13px;
+ letter-spacing: 1.9px;
+ word-spacing: 3px;
  text-decoration: none;
- transition: .3s; 
+ transition: .2s; 
 }
 
 

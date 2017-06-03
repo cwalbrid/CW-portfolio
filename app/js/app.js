@@ -92,7 +92,7 @@ $scope.projectData =  [
 app.directive('myProject', function(){
 	return {
 		restrict: 'E',
-		templateUrl: '../project.html'
+		templateUrl: '../templates/project.html'
 	};
 });
 
