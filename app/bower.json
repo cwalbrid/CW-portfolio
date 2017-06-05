@@ -1,0 +1,17 @@
+{
+  "name": "CW Portfolio",
+  "homepage": "https://github.com/cwalbrid/CW-portfolio",
+  "authors": [
+    "Colin Walbridge <cwalbrid@umich.edu>"
+  ],
+  "description": "",
+  "main": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
