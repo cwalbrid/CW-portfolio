@@ -85,7 +85,7 @@ hr{
       url("../img/cairns.jpg");
 
     
-    min-height: 800px; 
+    min-height: 100vh; 
     width: 100%;
 
     background-attachment: fixed;
@@ -140,7 +140,7 @@ hr{
       url("../img/moher.jpg");
 
     /* Set a specific height */
-    min-height: 800px; ; 
+    min-height: 100vh; ; 
     
 
     /* Create the parallax scrolling effect */
@@ -161,7 +161,7 @@ hr{
       url("../img/wave-book.jpg");
 
     /* Set a specific height */
-    min-height: 800px; 
+    min-height: 100vh; 
     
 
     /* Create the parallax scrolling effect */
@@ -182,7 +182,7 @@ hr{
       url("../img/umber-mountains.jpg");
 
     /* Set a specific height */
-    min-height: 800px;  
+    min-height: 100vh;  
     
 
     /* Create the parallax scrolling effect */
