@@ -467,7 +467,7 @@ hr{
   margin: 0px 0px 52px 0px;
   padding: 0px 65px 0px 0px;
   font-family: 'Open Sans', sans-serif;
-  font-size: 60px;
+  font-size: 58px;
   color: #737373;
 }
 
@@ -481,8 +481,8 @@ hr{
 .grid-item{
   background-color: gray;
   display: inline-block;
-  height: 350px;
-  width:350px;
+  height: 315px;
+  width: 315px;
   border-radius: 15px;
   position: relative;  
   float:left;

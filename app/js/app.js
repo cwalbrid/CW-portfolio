@@ -6,7 +6,7 @@ app.controller('projectDataCtrl', function($scope){
 lightbox.option({
 	'showImageNumberLabel': false,
 	'wrapAround': true,
-	'positionFromTop': 35
+	'positionFromTop': 12
 });
 
 $scope.projectData =  [
@@ -28,15 +28,15 @@ $scope.projectData =  [
 		description: 'A JavaScript app that displays a shopping list. The list includes cost for individual items, and the total cost of the list. When users add new items and costs to the list, the app adjusts the total price accordingly.',
 		skills: 'JavaScript, HTML5, CSS3'
 	},
-	{
-		title: 'Poor Man' + "'" +'s Reddit',
-		thumbSrc: '../img/thumb-reddit.jpg',
-		scapeSrc: '../img/scape-reddit.jpg',
-		caption: 'Displays the top ten posts on the subreddit r/AnimalsBeingBros',
-		subdomain: 'http://poor-mans-reddit-lab.colinwalbridge.com',
-		description: 'A JavaScript app that uses a JSON request to reddit.com to display the top ten posts from the subreddit r/AnimalsBeingBros.',
-		skills: 'JSON, jQuery, HTML5, CSS3'
-	},
+	// {
+	// 	title: 'Poor Man' + "'" +'s Reddit',
+	// 	thumbSrc: '../img/thumb-reddit.jpg',
+	// 	scapeSrc: '../img/scape-reddit.jpg',
+	// 	caption: 'Displays the top ten posts on the subreddit r/AnimalsBeingBros',
+	// 	subdomain: 'http://poor-mans-reddit-lab.colinwalbridge.com',
+	// 	description: 'A JavaScript app that uses a JSON request to reddit.com to display the top ten posts from the subreddit r/AnimalsBeingBros.',
+	// 	skills: 'JSON, jQuery, HTML5, CSS3'
+	// },
 	{
 		title: 'Six-Year-Old Simulator',
 		thumbSrc: '../img/thumb-six-year-sim.jpg',
@@ -81,6 +81,24 @@ $scope.projectData =  [
 		subdomain: 'http://brick-oven-pizza-project.colinwalbridge.com',
 		description: 'View the specialty pizzas for each franchise of the fictional Brick Oven Pizza Company while learning the history of its founder, Giuseppe Giacosa.',
 		skills: 'AngularJS, HTML5, CSS3'
+	},
+	{
+		title: 'S13A Blog Post Template',
+		thumbSrc: '../img/thumb-blog-post-template.jpg',
+		scapeSrc: '../img/scape-blog-post-template.jpg',
+		caption: 'A blog post template built for Synectics Media',
+		subdomain: 'http://bit.ly/2s31DR7',
+		description: 'A fully responsive blog post template built with HTML5, CSS3, and HubSpot\'s template editor',
+		skills: 'HubSpot, HTML5, CSS3'
+	},
+	{
+		title: 'Empowerment Source',
+		thumbSrc: '../img/thumb-empowerment-source.jpg',
+		scapeSrc: '../img/scape-empowerment-source.jpg',
+		caption: 'A small business site built for Empowerment Source LLC',
+		subdomain: 'http://empowermentsource.com/',
+		description: 'A small business website for Empowerment Source LLC, built with HTML5, CSS3, and JavaScript',
+		skills: 'HTML5, CSS3, JavaScript'
 	}
 ];
 
